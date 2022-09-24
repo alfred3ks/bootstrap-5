@@ -1,0 +1,60 @@
+Vamos a crear un proyecto llamado index.html
+
+Tanto en la parte superior(header) y inferior meter debajo de antes cerrar el body colocar las CDN, tanto para JS como CSS.
+
+Para usa la grid de bootstrap debemos seguir unas pequeñas reglas que nos da bootstrap que tenemos que respetar para hacer sitios reponsive.
+
+Todo el contenido lo debemos encerrar dentro de contenedores.
+
+<div class="container">
+
+</div>
+
+Esta es la primera clase que vamos a ver. Luego dentro de un contenedor tenemos que poner filas.
+
+<div class="container">
+  <div class="row">
+  </div>
+</div>
+
+Dentro de las filas tenemos que poner columnas.
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>Hola Bootstrap.</h1>
+    </div>
+  </div>
+</div>
+
+Vemos el ejemplo del index.html
+
+Dentro del row podemos definir sabiendo que tenemos 12 columnas el numero de columnas con col-2, col-4, col-6 etc. SEsto esta bien pero el sitio asi no es responsive.
+
+Vamos ver como controlar el tamaño de las pantallas.
+
+https://getbootstrap.com/docs/5.2/layout/breakpoints/
+
+.col -> Extra Pequeño (Extra Small) - Smartphone Vertical, menos de 576 px
+.col-sm -> Pequeño (Small) -SmarPhone Vertical, Mas de 675px y menos de 768px
+.col-md -> Mediano (Mediun) - Tablets, Mas de 768px y menos de 992 px
+.col-lg -> Largo (Large) Computadoras, Mas de 992px y Menos de 1200px
+.col-xl Extra Largo (Extra Large) - Computadoras, Mas de 1200px
+.col-xxl Extra Extra Large - Televisores, Mas de 1400px
+
+
+Vamos a tratar de entender esto:
+
+.col-md -> quiere decir que este estilo se aplicara de 768px en adelante y si le ponemos el numero de columnas estas se aplicaran desde ahi.
+
+En el ejemplo vemos que tenemos 3 columnas que dispositivos por debajo de 768px se muestra uno debajo del otro pero luego vemos que se muestran dos columnas col.md-6 y la tercera columna en col-md-12 osea que ocupe todo el ancho.
+
+col-md-6 -> a partir del 768px abarcara la mitad de la grid.
+col-md-12 -> a partir del 768px abarcara toda de la grid.
+
+Para nuestro ejemplo:
+col-12 col-md-6
+
+Por debajo de 768px ocupara todo y por encima la mitad. Muy interesante. Podemos encadenar todas las clases que necesitemos, podemos ver 2 clase encadenadas.
+
+Una ultima cosa que debemos saber que para el container tenemos la clase container pero tambien tenemos la clase container-fluid que ocupa el 100% del ancho.
