@@ -1,0 +1,32 @@
+Vamos a ver como usar bootstrap 5.
+Vamos a ir a su pagina donde podemos ver la documentacion del framework.
+https://getbootstrap.com/
+
+Vamos al apartado de descargas: Para este caso la version 5.2.
+
+https://getbootstrap.com/docs/5.2/getting-started/download/
+
+Como se puede ver hay varias formas de usar bootstrap, solo vamos a ver dos formas de usar bootstrap.
+
+1- descargando el framework ya compilado tanto el css con js:
+Compiled CSS and JS. Nos da los archivos del framework ya compilados para que lo importemos en el proyecto.
+Le damos a descarga y se nos bajara un archivo zip que debemos descomprimir, veremos la carpeta dentro de ella dos carpetas mas, una css y js. En esas carpetas se encuentran los archivos del framework, esta carpeta la ponemos en la raiz del proyecto. Esa seria una opcion.
+Luego tenemos que en la cabecera llamar los estilos:
+
+<link rel="stylesheet" href="./bootstrap-5.2.1/css/bootstrap.min.css">
+
+Llamamos al archivo minificado. Igual hacemos con el JS.
+
+<script src="./bootstrap-5.2.1/js/bootstrap.min.js"></script>
+
+Este lo llamamos al final del body.
+
+2. usando las CDN via jsDelivr: en jsDeliver ahi estan alojados los archivos css y js de bootstrap.
+Copiamos desde la web los archivos que nos da por medio de la CDN:
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+El del css lo colocamos en la cabecera, y el de js al final del body.
+
+Vemos como en ambas opciones funciona. A diferencia de la segunda opcion que se necesita una conexion a internet para que funcione.
