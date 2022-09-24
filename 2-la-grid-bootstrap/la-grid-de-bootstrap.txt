@@ -1,0 +1,28 @@
+Vamos a ver una parte muy importante en este framework, la grid de bootstrap.
+
+La grid de bootstrap:
+
+Esta grid nos ayudara a hacer sitios resposive, que se adaptan a diferentes tamaños de pantalla.
+
+Bootstrap trabaja con un sistema de 12 colummnas. Ver el proeyecto grid.
+
+https://getbootstrap.com/docs/4.0/layout/grid/
+
+En el diseño gráfico, un grid es simplemente una “estructura formada por una serie de líneas horizontales y verticales usadas para estructurar contenido”.Con el sistema de grid, responsive y mobile first, de 12 columnas de Bootstrap se hace fácil crear sitios webs complejos y dinámicos.Si has estado maquetando alguna plantilla que haya utilizado Bootstrap como Framework, es muy posible que hayas visto clases de CSS con nombres tan singulares como “sm”, “md”, “lg”.Un ejemplo de una sección en un sitio web que tenga una columna para dispositivos más pequeños, 2 columnas para dispositivos pequeños y dispositivos medianos, y cuatro columnas para dispositivos grandes
+
+.<div class="row">
+<div class="col-sm-6 col-lg-3">
+Grid 1
+</div>
+<div class="col-sm-6 col-lg-3">
+Grid 2 </div>
+<div class="col-sm-6 col-lg-3">
+Grid 3
+</div>
+<div class="col-sm-6 col-lg-3">
+Grid 4
+</div>
+</div>
+
+¿Qué són los sm, md, lg y para qué sirven?
+El sistema de Bootstrap utiliza el “mobile frist”, esto significa que declarando el tamaño de un grid, la grid declarada es para el tamaño especificado y los superiores. El sistema de grid de Bootstrap tiene cuatro clases: xs, extra small devices, para dispositivos más pequeños que 768px, teléfonos), sm (small devices, para dispositivos más grandes o iguales a 768px, tablets), md (medium devices, para ordenadores de mesa con más de 992px de ancho) y ld (larger desktops y superiores, para ordenadores de mesa con más de 1200px de ancho).No es necesario definir para tamaño extra-pequeño, pues el sistema muestra una columna por defecto. De la misma forma tenemos que definir el tamaño del grid para dispositivos pequeños, aunque no para dispositivos medianos, ya que el sistema escala para dispositivos de mayor dimensión. Definiendo un tamaño en sm, este será el tamaño de la grid para sm , md y lg.Bootstrap también permite utilizar media queries, pero sus Utilidades Responsive también hacen que sea fácil esconder o mostrar elementos de acuerdo con el tamaño del navegador o, de acuerdo con el dispositivo en el que se está navegando. Estas utilidades no soportan tablas de HTML, así que mejor no utilizarlas. Es cierto que existen otras opciones de frameworks de grid que podemos utilizar hoy día, como ya hemos visto anteriormente aquí, pero el sistema de Bootstrap me parece lo suficiente potente para por lo menos ser testado. Es posible también aprender a través de ejemplos y utilizando la documentación de Bootstrap.
