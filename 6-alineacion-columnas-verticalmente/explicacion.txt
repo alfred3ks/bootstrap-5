@@ -1,0 +1,13 @@
+Alineacion de columnas dentro de la fila:
+
+Para este ejemplo la fila tiene un alto definido en el css y lo que hacemos es posicionar las columnas, al inicio, medio y final de la fila.
+
+<div class="row align-items-start">
+<div class="row align-items-center">
+<div class="row align-items-end">
+
+Tambien podemos alinear con las columnas y seria practicamente lo mismo:
+
+<div class="col column align-self-end">Columna #1</div>
+<div class="col column align-self-end">Columna #2</div>
+<div class="col column align-self-end">Columna #3</div>
