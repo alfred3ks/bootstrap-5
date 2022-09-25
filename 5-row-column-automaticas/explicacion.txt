@@ -1,0 +1,47 @@
+Esto es nuesvo para la version 5 de bootstrap.
+Veremos a lo que se le conoce como row-column.
+
+Una cosa que podemos ver es que estamos agregando unos estilos propios, pero mas adelante esos estilos se daran usando bootstrap.
+
+Nota: si usamos la clase col, recuerda que toda la fila se repartira entre todas las columnas disponibles:
+
+<div class="container">
+  <div class="row">
+    <div class="col">Column #1</div>
+    <div class="col">Column #2</div>
+    <div class="col">Column #3</div>
+    <div class="col">Column #4</div>
+    <div class="col">Column #5</div>
+    <div class="col">Column #6</div>
+  </div>
+</div>
+
+A esto se le conoce como columnas automaticas.
+Ahora vemos como hacer que le decimos cuantas columnas tendremos en la fila:
+
+  <div class="container">
+    <div class="row row-cols-3">
+      <div class="col">Column #1</div>
+      <div class="col">Column #2</div>
+      <div class="col">Column #3</div>
+      <div class="col">Column #4</div>
+      <div class="col">Column #5</div>
+      <div class="col">Column #6</div>
+    </div>
+  </div>
+
+Pero esto no es responsive, el siguiente si:
+
+  <div class="container">
+    <div class="row row-cols-md-3">
+      <div class="col">Column #1</div>
+      <div class="col">Column #2</div>
+      <div class="col">Column #3</div>
+      <div class="col">Column #4</div>
+      <div class="col">Column #5</div>
+      <div class="col">Column #6</div>
+      <div class="col">Column #7</div>
+    </div>
+  </div>
+
+El contenido se ajusta a 3 columnas y el que sobre las acomoda debajo. No importa el numero de elementos que tengamos en la fila.
