@@ -1,0 +1,9 @@
+Vamos a ver como crear columnas anidadas.
+
+Lo que veremos es como anidar columnas, osea tener columnas dentro de otras columnas.
+
+Hay una cosa que debes entender bien, todo empieza en el tamaño pequeño de la pantalla y va subiendo hasta pantallas grandes.
+
+Lo vemos en las columnas que estan anidadas, parten ocupando todo el ancho del container, desde la pantalla pequeña, col-12, pero para a medida que aumenta el tamaño vemos que cambian a col-md-6, mas los estilos personales que le queramos poner.
+
+Interesante... seguimos.
