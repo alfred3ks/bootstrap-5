@@ -1,0 +1,12 @@
+Vamos a ver como alinear columnas de forma horizontal.
+
+Para esto tenemos varias clases en bootstrap basadas en flexbox.
+
+<div class="row justify-content-start">
+<div class="row justify-content-center">
+<div class="row justify-content-end">
+<div class="row justify-content-around">
+<div class="row justify-content-between">
+<div class="row justify-content-evenly">
+
+Facil...
