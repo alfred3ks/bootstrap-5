@@ -1,0 +1,42 @@
+Vamos a ver algunas clases que son utiles usando la grid de bootstrap.
+
+- Como ordenar columnas sin modificar el codigo: order:
+
+class = "order-1", tiene valores del 1 al 5.
+
+Esto es interesante sobre todo cuando se quiere que al cambiar de dispositivo, sobre todo los moviles el contenido se muestre distinto.
+
+<div class="col columna order-4 order-md-1">Columna 1</div>
+
+Para dispositivos pequeños col el order sera 4 pero order en tamaño mediano sera de 1.
+
+- Clase para ordenar un elemento al inicio y al final:
+order-first,
+order-last
+La vemos en el ejemplo.
+
+- Clase para el offserin: Esto permite desplazar la columna hacia la derecha cierta cantidad de columnas:
+
+<div class="col-3 columna offset-3">Columna</div>
+
+Si la grid es de 12 se mueve a la mitad, como vemos. Esto tambien es util con dispositivos moviles.
+
+- Margenes:
+
+Con la clase col-auto solo tendra el tamaño del contenido. Muy usado en iconos. Esta la podemos combinar.
+
+<div class="columna col-auto me-auto">Margenes A</div>
+<div class="columna col-auto ms-auto">Margenes B</div>
+
+ms -> margin start,
+me -> margin end.
+
+No hace falta colocar las dos con colocar una basta.
+
+No se utiliza mucho, la mas interesante es aplicarlos en la fila:
+<div class="row justify-content-between">
+  <div class="columna col-auto">Margenes A</div>
+  <div class="columna col-auto">Margenes B</div>
+</div>
+
+El efecto en este caso es el mismo.

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS mediante CDN: -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Utilidades de la Grid de Bootstrap</title>
+</head>
+<body>
+  <h1>Utilidades de la Grid de Bootstrap</h1>
+  <h3>Algunas clases utiles que se usan con la Grid de Bootstrap.</h3>
+
+  <div class="container">
+    <h3>Order</h3>
+    <div class="row">
+      <div class="col columna order-4 order-md-1">Columna 1</div>
+      <div class="col columna order-3 order-md-2">Columna 2</div>
+      <div class="col columna order-2 order-md-3">Columna 3</div>
+      <div class="col columna order-1 order-md-4">Columna 4</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h3>Order first, Order last</h3>
+    <div class="row">
+      <div class="col columna order-4 order-last">Columna 1</div>
+      <div class="col columna order-3 order-md-2">Columna 2</div>
+      <div class="col columna order-2 order-md-3">Columna 3</div>
+      <div class="col columna order-1 order-first">Columna 4</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h3>offserin, el offset</h3>
+    <div class="row">
+      <div class="col columna order-4 order-last">Columna 1</div>
+      <div class="col columna order-3 order-md-2">Columna 2</div>
+      <div class="col columna order-2 order-md-3">Columna 3</div>
+      <div class="col columna order-1 order-first">Columna 4</div>
+    </div>
+    <div class="row">
+      <div class="col-3 columna offset-1 offset-sm-6">Columna</div>
+    </div>
+    <div class="row">
+      <div class="columna col-3 offset-3">Columna A</div>
+      <div class="columna col-3 offset-3">Columna B</div>
+    </div>
+  </div>
+  <div class="container">
+    <h3>Margenes.</h3>
+    <h4>Dos formas, en la fila</h4>
+    <div class="row justify-content-between">
+      <div class="columna col-auto">Margenes A</div>
+      <div class="columna col-auto">Margenes B</div>
+    </div>
+    <h4>En la columna</h4>
+    <div class="row">
+      <div class="columna col-auto me-auto">Margenes A</div>
+      <div class="columna col-auto ms-auto">Margenes B</div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <!-- Bootstrap JS mediante CDN: -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+</html>
