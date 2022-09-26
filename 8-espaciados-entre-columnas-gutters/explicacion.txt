@@ -1,0 +1,18 @@
+Los Gutters:
+
+Son espaciados que bootstrap agrega por defecto. A veces es necesario quitarlos o modificarlos a nuestro gusto.
+
+En nuestro primer ejemplo #1 vemos unos espaciado que hay que agrega bootstrap cuando trabajamos con filas y columnas, eso es lo que se le conoce como gutters. Estos Gutters o espaciados los podemos modificar.
+Para modificarlo debemos trabajar en el div donde esta la fila, row.
+
+class ="g-0"
+<div class="row g-0">
+
+Con eso vemos como se quitan.
+
+Tambien podemos poner el gutters en el eje que deseemos:
+g-0 -> No Gutters,
+gx-5 -> Gutters horizontales,
+gy-5 -> Gutters verticales.
+
+Estas clases no se usan mucho las mas g-0.
