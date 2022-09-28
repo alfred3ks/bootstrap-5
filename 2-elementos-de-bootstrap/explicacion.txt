@@ -1,0 +1,5 @@
+Vamos a ver la cambiar la tipografia con bootstrap.
+Veremos que clases tenemos para poder trabajar con ellas.
+
+Vamos a ver la tipografia para los encabezados.
+

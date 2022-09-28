@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS mediante CDN: -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Tipografias con bootstrap</title>
+</head>
+<body>
+
+  <!-- Vemos como se muestra por defecto -->
+  <h2>Encabezados por defecto:</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Encabezado H1</h1>
+        <h2>Encabezado H2</h2>
+        <h3>Encabezado H3</h3>
+        <h4>Encabezado H4</h4>
+        <h5>Encabezado H5</h5>
+        <h6>Encabezado H6</h6>
+      </div>
+    </div>
+  </div>
+
+  <h2>class text-muted:</h2>
+  <!-- Esta clase nos permite mostrar el texto como apagado -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>H1 <small class="text-muted">Texto secundario</small></h1>
+        <h2>H2 <small class="text-muted">Texto secundario</small></h2>
+        <h3>H3 <small class="text-muted">Texto secundario</small></h3>
+        <h4>H4 <small class="text-muted">Texto secundario</small></h4>
+        <h5>H5 <small class="text-muted">Texto secundario</small></h5>
+        <h6>H6 <small class="text-muted">Texto secundario</small></h6>
+      </div>
+    </div>
+  </div>
+
+  <h2>class h1 ...h6:</h2>
+  <!-- Clases h1 .... h6, le damos los mismos estilos como si fuesen una etiqueta, eso esta bien porque si queremos mostrar mas de un h1, con la clase solo tenemos el tamaño no la etiqueta-->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p class="h1">Parafo con estilo de H1 <small class="text-muted">Texto secundario</small></p>
+        <p class="h2">Parafo con estilo de H2 <small class="text-muted">Texto secundario</small></p>
+        <p class="h3">Parafo con estilo de H3 <small class="text-muted">Texto secundario</small></p>
+        <p class="h4">Parafo con estilo de H4 <small class="text-muted">Texto secundario</small></p>
+        <p class="h5">Parafo con estilo de H5 <small class="text-muted">Texto secundario</small></p>
+        <p class="h6">Parafo con estilo de H6 <small class="text-muted">Texto secundario</small></p>
+      </div>
+    </div>
+  </div>
+
+  <h2>class display:</h2>
+  <!-- Esta clase se suele usar en los encabezados del logo, etc, es una variante-->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="display-1">Display 1</h1>
+        <h2 class="display-2">Display 2</h2>
+        <h3 class="display-3">Display 3</h3>
+        <h4 class="display-4">Display 4</h4>
+        <h5 class="display-5">Display 5</h5>
+        <h6 class="display-6">Display 6</h6>
+      </div>
+    </div>
+  </div>
+
+  <h2>class lead:</h2>
+  <!-- Esta clase cambia la tipografia del contenido un poco mas fina la letra y mas grande -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
+    </div>
+  </div>
+
+  <h2>class blockquote:</h2>
+  <!-- Esta clase vemos que la tipografia es un poco mas grande. Vemos la etiqueta cite que cuando pasamos el cursos pr encima nos muestra lo que envuelve. -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <figure class="text-center">
+          <blockquote class="blockquote">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </blockquote>
+        </figure>
+        <figcaption class="blockquote-footer">
+          Lorem Ipsum is simply <cite title="Titulo de la fuente">dummy</cite> text of the printing and typesetting
+          industry.
+        </figcaption>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS mediante CDN: -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+</html>
